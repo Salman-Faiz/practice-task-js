@@ -30,6 +30,9 @@ function findOddNumbers(numbers){
     var index;
     var arrayElements;
     var sum=0;
+
+    const oddArray=[];
+    const evenArray=[];
     
    
     for(let i=0; i<numbers.length; i++){
@@ -43,9 +46,19 @@ function findOddNumbers(numbers){
             // console.log(index,arrayElements);
             sum=sum + arrayElements;
             console.log(arrayElements, sum);
+            oddArray.push(arrayElements);
         }
+        else if(arrayElements%2 ===0){
+            evenArray.push(arrayElements);
+        }
+       
        
 
     }
+    console.log('odd values -->', oddArray);
+    console.log('even values -->',evenArray);
+    return sum;
+    
 }
+
 findOddNumbers(inputArray);
