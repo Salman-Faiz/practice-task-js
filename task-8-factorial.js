@@ -6,6 +6,7 @@ function factorial(numbers){
         console.log(i,multiplicationResult);
 
     }
+    return multiplicationResult;
 }
 
 factorial(7);
@@ -16,5 +17,6 @@ function factorialReverse(numbers){
         reverseMultiplication=reverseMultiplication*i;
         console.log(i,reverseMultiplication);
     }
+    return reverseMultiplication;
 }
 factorialReverse(7);
