@@ -14,3 +14,4 @@ console.log(typeof c);
 console.log(typeof d);
 console.log(typeof e);
 
+console.log(a.concat(b).concat(c).concat(d));
