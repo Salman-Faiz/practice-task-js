@@ -22,5 +22,6 @@ function bestFriends(friends) {
   console.log(longestNameList, longestName)
 return longestName; 
 } 
-
-bestFriends(myFriends);
+const num =[1,2,3,4,5,6,7,8,9];
+console.log(Math.max(...num));
+// bestFriends(myFriends);
